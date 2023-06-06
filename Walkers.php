@@ -28,7 +28,7 @@
 
 
 <div class="navbar">
-  <a href="HomePage.php"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a href="index.php"><i class="fa fa-fw fa-home"></i> Home</a>
   <a href="Walkers.php" class="active"><i class="fa fa-fw fa-paw"></i> Walkers</a>
   <?php
   if(isset($_SESSION['admin'])){

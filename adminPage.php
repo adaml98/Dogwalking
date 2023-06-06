@@ -1,7 +1,7 @@
 <?php
 include 'Login/init.php';
 if(!isset($_SESSION['admin'])){
- header ('location:HomePage.php');
+ header ('location:index.php');
 }
 ?>
 <!DOCTYPE html>
@@ -22,7 +22,7 @@ if(!isset($_SESSION['admin'])){
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <div class="navbar">
-  <a href="HomePage.php"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a href="index.php"><i class="fa fa-fw fa-home"></i> Home</a>
   <a href="Walkers.php"><i class="fa fa-fw fa-paw"></i> Walkers</a>
   <a href="adminPage.php" class="active"><i class="fa fa-fw fa-cog"></i> Admin</a>
   <a href="Login/loginform.php" class="right"><i class="fa fa-fw fa-user"></i> Login</a>
